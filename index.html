@@ -7,11 +7,19 @@
 
     <link type="text/css" rel="stylesheet" href="C:\Users\dasik\fridge\official-vanguardia\style.css">
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 
   </head>
   <body>
+
 
 
     <div class="jumbotron jumbotron-fluid">
@@ -48,10 +56,76 @@
         <div class="card-body">
           <h5 class="card-title">Sikroy Esrey</h5>
           <p class="card-text">West Coast Grime </p>
-          <a href="#" class="btn btn-primary">Music</a>
-        </div>
+          <!-- IDEA: button open -->
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#myModal">
+  <i class="material-icons md-48 deeppink">
+audiotrack
+</i>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Original Tracks</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+              <table class="table table-striped table-dark">
+                <thead>
+                  <tr>
+                    <th scope="col"><i class="material-icons sm-light">
+                  audiotrack
+                  </i></th>
+                    <th scope="col">Alias</th>
+                    <th scope="col">Track</th>
+                    <th scope="col">
+                      Shopping Cart
+                    </th>
+                  </tr>
+                </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row"><i class="material-icons">
+speaker
+</i></th>
+                      <td>Sikroy</td>
+                      <td></td>
+                      <td><i class="material-icons">
+                      add_shopping_cart
+                      </i></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><i class="material-icons">
+                        speaker
+                        </i></th>
+                      <td>Mr. Biggz</td>
+                      <td>Disco donna</td>
+                      <td><i class="material-icons">
+                      add_shopping_cart
+                      </i></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><i class="material-icons">
+                        speaker
+                        </i></th>
+                      <td>Esrey</td>
+                      <td>Happily Never</td>
+                      <td><i class="material-icons">
+                      add_shopping_cart
+                      </i></td>
+                    </tr>
+                  </tbody>
+              </table>
       </div>
 
+    </div>
+  </div>
+</div>
       </div>
     </div>
 
@@ -68,6 +142,13 @@
 
 
 
+
+    <script href="C:\Users\dasik\fridge\official-vanguardia\logic.js">
+
+    </script>
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js">
+
+    </script>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
