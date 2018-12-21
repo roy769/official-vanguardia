@@ -14,3 +14,12 @@
    color: #FF1493
 ;
  }
+
+ .background.mediumvioletred {background-color:#C71585 }
+ .background.darkgray {background-color:#A9A9A9 }
+ .background.gray {background-color:#808080 }
+ .background.dimgray {background-color:#696969 }
+ .background.black {background-color:#000 }
+ .blend{mix-blend-mode: color-burn;
+         opacity: .9;}
+.invert{ mix-blend-mode: difference;}
