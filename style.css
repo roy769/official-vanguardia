@@ -27,3 +27,4 @@
  .blend{mix-blend-mode: color-burn;
          opacity: .9;}
 .invert{ mix-blend-mode: difference;}
+.white{color: white;}
