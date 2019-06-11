@@ -30,3 +30,5 @@
 .white{color: white;}
 .red{color:red;}
 .orange{color:orange;}
+.opacity{opacity:.8;
+            mix-blend-mode: difference;}
